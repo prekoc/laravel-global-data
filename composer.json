@@ -1,0 +1,22 @@
+{
+    "name": "prekoc/laravel-global-data",
+    "type": "library",
+    "description": "Global data package for Laravel",
+    "homepage": "https://github.com/prekoc/laravel-global-data",
+    "authors": [
+        {
+            "name": "Predrag Koceski",
+            "email": "Predrag@rn6.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "~5"
+    },
+    "autoload": {
+        "psr-0": {
+            "Prekoc\\Data": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
